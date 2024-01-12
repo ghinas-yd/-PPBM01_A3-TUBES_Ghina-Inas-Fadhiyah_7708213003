@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pesanan">
+
+
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/league"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewContent3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewTitle2"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dino"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewContent3"
+        android:textSize="20dp"
+        style="bold"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:text="Tidak ada pesanan saat ini. Tapi jangan khawatir, kami siap menerima dan menghidupkan
+ide kreatif Anda menjadi desain yang memukau.Hubungi kami untuk memulai transformasi visual bisnis Anda!"/>
+
+
+</RelativeLayout>

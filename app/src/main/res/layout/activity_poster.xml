@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gambar"
+    tools:context=".PosterActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/pesanposter"
+    android:layout_width="190dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="570dp"
+    android:layout_marginHorizontal="95dp"
+    android:background="@drawable/button_shape"
+    android:backgroundTint="@color/biru"
+    android:fontFamily="@font/league"
+    android:gravity="center"
+    android:text="Pesan Sekarang"
+    android:textColor="@color/white"
+    android:textSize="17dp"
+    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,TextSizeCheck" />
+
+</LinearLayout>

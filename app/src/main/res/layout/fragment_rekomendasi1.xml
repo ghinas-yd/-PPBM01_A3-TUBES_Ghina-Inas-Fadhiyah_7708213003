@@ -1,0 +1,42 @@
+<!-- Isi sesuai dengan kebutuhan -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".rekomendasi1">
+
+    <TextView
+        android:id="@+id/textViewTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi"
+        android:textSize="25sp"
+        android:fontFamily="@font/league"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewContent1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textViewTitle1"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rekomen"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewContent1"
+        android:layout_marginTop="16dp"
+        style="bold"
+        android:textAlignment="center"
+        android:text=
+            "Transformasi visual untuk menciptakan keseimbangan indah dan fungsional.
+Dari konsep ke kenyataan,desain kami menjadi suara bisnis Anda. Biarkan ide Anda bersinar dalam desain yang tak terlupakan, membawa bisnis Anda ke level berikutnya."/>
+
+    <!-- Tambahkan elemen UI sesuai kebutuhan -->
+
+</RelativeLayout>

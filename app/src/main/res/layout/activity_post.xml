@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#ffff"
+    tools:context=".PostActivity">
+
+    <!-- User profile image -->
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/account"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- User name and post time -->
+
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageViewProfile"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="23dp"
+        android:layout_toEndOf="@id/imageViewProfile"
+        android:text="Ghinainas"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPostTime"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@id/imageViewProfile"
+        android:text="2 hours ago"
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- Post image -->
+    <ImageView
+        android:id="@+id/imageViewPost"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/postig"
+        android:scaleType="centerCrop"/>
+
+    <!-- Like button -->
+    <ImageView
+        android:id="@+id/imageViewLike"
+        android:layout_width="39dp"
+        android:layout_height="46dp"
+        android:layout_below="@id/imageViewPost"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/heart" />
+
+    <!-- Comment button -->
+
+    <!-- Share button -->
+    <ImageView
+        android:id="@+id/imageViewComment"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/imageViewPost"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/imageViewLike"
+        android:src="@drawable/comment" />
+
+    <ImageView
+        android:id="@+id/imageViewShare"
+        android:layout_width="47dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/imageViewPost"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/imageViewComment"
+        android:src="@drawable/send" />
+
+
+
+
+</RelativeLayout>

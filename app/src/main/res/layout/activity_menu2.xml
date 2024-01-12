@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman8">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card"
+        android:padding="16dp">
+
+        <!-- Add your content here, e.g., TextViews, ImageViews, etc. -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexendbold"
+            android:gravity="center_horizontal"
+            android:text="Videography"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="690dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/backB"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/baseline_arrow_back_24"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/settingVideo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginHorizontal="340dp"
+                android:layout_marginTop="-29dp"
+                android:background="@drawable/settings"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Film"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/moresugar"
+            android:textSize="30dp"
+            android:textColor="@color/tosca"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:id="@+id/film"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/film"
+                android:layout_marginStart="105dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/film1"
+                android:layout_marginStart="-46dp"
+                tools:ignore="ContentDescription">
+
+
+
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menu2"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/menu">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editing"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/moresugar"
+            android:textSize="30dp"
+            android:textColor="@color/kuningjreng"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage,VisualLintOverlap">
+
+        </TextView>
+
+
+        <LinearLayout
+            android:layout_width="327dp"
+            android:layout_height="123dp"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp"
+            tools:ignore="VisualLintBounds">
+
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/edit"
+                android:layout_marginStart="155dp"
+                tools:ignore="ContentDescription">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/home3"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/beranda"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pengaturan3"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:layout_toStartOf="@id/home3"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/setting"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/listharga3"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="763dp"
+        android:layout_marginStart="305dp"
+        android:background="@drawable/menu"
+        tools:ignore="NotSibling,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/postinstagram3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginHorizontal="349sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/add"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</RelativeLayout>

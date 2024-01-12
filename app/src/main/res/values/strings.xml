@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">assesment1</string>
+    <string name="welcome">Welcome!</string>
+    <string name="mulai_mendesain_dengan_pengalaman_baru_bersamazeppo_design_coba_sekarang_juga_dapatkan_pengalam_baru_disini">mulai mendesain dengan pengalaman baru bersamazeppo.design coba sekarang juga dapatkan pengalam baru disini</string>
+    <string name="getting_started">Getting Started</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
